@@ -8,7 +8,7 @@ module.exports = {
         if (!texts) {
           return res.status(204);
         }
-        return res.status(200).json(texts);
+        return res.status(304).json(texts);
       })
       .catch((err) => res.status(404).json(err));
   },

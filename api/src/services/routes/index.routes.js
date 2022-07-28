@@ -8,4 +8,3 @@ router.post('/text', postText);
 router.delete('/text/:id', deleteText);
 
 module.exports = router;
-
